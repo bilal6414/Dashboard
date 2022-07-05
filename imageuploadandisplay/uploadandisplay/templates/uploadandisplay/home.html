@@ -34,7 +34,14 @@
     {%endfor%}
   </div>
   </div>
-    
+    {% for image in obj %}
+    <div class="col-sm-4">
+    <img src="{{image.Image.url}}" >
+    </div>
+  {%endfor%}
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

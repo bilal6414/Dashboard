@@ -4,3 +4,5 @@ from django.db import models
 class ImageModel(models.Model):
     Image = models.ImageField(upload_to='images')
     date = models.DateTimeField(auto_now_add=True)
+    a=30
+

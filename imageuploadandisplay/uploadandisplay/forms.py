@@ -4,3 +4,4 @@ class myform(forms.ModelForm):
     class Meta:
         model = ImageModel
         fields = '__all__'
+
